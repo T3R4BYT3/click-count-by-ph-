@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.fill{
+    width: 100vw;
+    height: 3vh;
+
+}
+
+.display{
+    
+    
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    width: 100%;
+    height: 14%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.screen{
+    width: 100%;
+    height: 86%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.showclick{
+    width: 30%;
+    height: 96%;
+
+    border: 10px solid black;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 5rem;
+}
+
+.buttons{
+    width: 100%;
+    height: 27vh;
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.btnalign{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnsub{
+    width: 30%;
+    height: 53%;
+    
+    border: 5px solid #D12323;
+
+    font-size: 5rem;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.btnsub:hover{
+    border: 5px solid #ca3939;
+
+    background-color: #D12323;
+
+    color: white;
+}
+
+.btnreset{
+    width: 27%;
+    height: 50%;
+    
+    border: 5px solid #1871C3;
+
+    font-size: 3rem;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.btnreset:hover{
+    border: 5px solid #3884ca;
+
+    background-color: #1871C3;
+
+    color: white;
+}
+
+.btnadd{
+    width: 30%;
+    height: 53%;
+    
+    border: 5px solid #20C845;
+
+    font-size: 5rem;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.btnadd:hover{
+    border: 5px solid #45ca62;
+
+    background-color: #20C845;
+
+    color: white;
+}
+
+@media (max-width: 1503px) {
+   
+
+    .showclick{
+        width: 27%;
+        height: 80%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnalign{
+        width: 27%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btnsub{
+        width: 24%;
+        height: 43%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 24%;
+        height: 43%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 22%;
+        height: 40%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 1323px) {
+    .showclick{
+        width: 30%;
+        height: 80%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnalign{
+        width: 30%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btnsub{
+        width: 26%;
+        height: 40%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 26%;
+        height: 40%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 24%;
+        height: 37%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 1083px) {
+    .showclick{
+        width: 34%;
+        height: 77%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnalign{
+        width: 34%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btnsub{
+        width: 29%;
+        height: 40%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 29%;
+        height: 40%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 27%;
+        height: 37%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 923px) {
+    .btnalign{
+        width: 40%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 40%;
+        height: 77%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnalign{
+        width: 40%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 827px) {
+    .btnalign{
+        width: 43%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 43%;
+        height: 77%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 717px) {
+    .btnalign{
+        width: 45%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 45%;
+        height: 77%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 615px) {
+    .btnalign{
+        width: 60%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 60%;
+        height: 70%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnsub{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 29%;
+        height: 37%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 513px) {
+    .btnalign{
+        width: 70%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 70%;
+        height: 70%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnsub{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 29%;
+        height: 37%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 385px) {
+    .btnalign{
+        width: 70%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 70%;
+        height: 65%;
+    
+        border: 10px solid black;
+        border-radius: 100px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4.5rem;
+    }
+
+    .btnsub{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 31%;
+        height: 40%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3.5rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 29%;
+        height: 37%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2.8rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 320px) {
+    .btnalign{
+        width: 90%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showclick{
+        width: 80%;
+        height: 50%;
+    
+        border: 10px solid black;
+        border-radius: 70px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: 4rem;
+    }
+
+    .btnsub{
+        width: 29%;
+        height: 37%;
+        
+        border: 5px solid #D12323;
+    
+        font-size: 3rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+    
+    .btnadd{
+        width: 29%;
+        height: 37%;
+        
+        border: 5px solid #20C845;
+    
+        font-size: 3rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .btnreset{
+        width: 27%;
+        height: 34%;
+        
+        border: 5px solid #1871C3;
+    
+        font-size: 2rem;
+    
+        background-color: white;
+    
+        cursor: pointer;
+    
+        transition: 0.5s;
+    }
+
+    .title{
+        width: 100%;
+        height: 14%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+}
