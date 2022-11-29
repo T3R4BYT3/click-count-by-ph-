@@ -1,0 +1,18 @@
+{
+    "short_name": "Clicker",
+    "name": "Clicker",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#3CB371",
+    "theme-color": "#3CB371",
+    "background_color": "#3CB371",
+    "background-color": "#3CB371",
+    "description": "Clicker WEB-APP",
+    "icons": [
+        {
+            "src": "media/icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
