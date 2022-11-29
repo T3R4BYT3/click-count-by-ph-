@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.webmanifest">
+    <script src="index.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Clicker Count</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="fill"></div>
+
+        <div class="display">
+
+            <div class="title">
+                <Span>Click Count</Span>
+            </div>
+
+            <div class="screen">
+                <div class="showclick">
+                    0
+                </div>
+            </div>
+
+        </div>
+        <div class="buttons">
+            <div class="btnalign">
+                <button class="btnsub" onclick="diminuir()" onmousedown="som_1()"  onmouseup="som_2()">
+                    &minus;
+                </button>
+                <button class="btnreset" onclick="zerar()" onmousedown="som_1()"  onmouseup="som_2()">
+                    C
+                </button>
+                <button class="btnadd" onclick="contar()" onmousedown="som_1()"  onmouseup="som_2()">
+                    &plus;
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
